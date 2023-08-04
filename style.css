@@ -1,0 +1,49 @@
+/* Reset CSS removes white part from header area :D*/
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.headerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+
+.rightHeaderLink{
+    display: flex;
+}
+
+.rightHeaderLink ul{
+    display: flex;
+    list-style: none;
+    margin-right: 70px;
+    flex-direction: row;
+    
+}
+
+.rightHeaderLink li{
+    
+    margin-right: 20px;
+    
+}
+
+.rightHeaderLink a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerLogo{
+    margin-left: 70px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerLogo img{
+    width: 15%;
+}
