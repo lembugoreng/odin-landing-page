@@ -7,7 +7,7 @@ body {
 .headerDiv{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     background-color: #1F2937;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -16,13 +16,16 @@ body {
 
 .rightHeaderLink{
     display: flex;
+    
+    background-color: #1F2937 ;
+    margin-left: 20%;
+    justify-content: flex-end;
 }
 
 .rightHeaderLink ul{
     display: flex;
     list-style: none;
-    margin-right: 70px;
-    flex-direction: row;
+   
     
 }
 
@@ -36,14 +39,105 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+     
 }
 
 .headerLogo{
-    margin-left: 70px;
-    font-size: 24px;
+    margin-left: 20%;
+    font-size: 40px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+
+
+.middleDiv{
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 5%;
+    padding-left: 20%;
+}
+
+.middleLeft{
+    background-color: #1F2937;
+    margin-top: 70px;
+    margin-right: 10%;
+    
+    
+}
+
+.awesomeText{
+    font-size: 48px;
+    font-weight:bolder;
     color: #F9FAF8;
 }
 
-.headerLogo img{
-    width: 15%;
+.awesomeSubText{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 20%;
+}
+
+.signUpContainer{
+    padding-top: 10px;
+}
+
+.signUpButton{
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 12px;
+}
+
+.middleDivImage img{
+    max-width: 100%;
+    height: auto;
+}
+
+.middleRight{
+    background-color: #1F2937;
+    
+    margin-top: 70px;
+    margin-right: 31%;
+    
+}
+
+
+.itemContainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.infoText{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-top: 80px;
+}
+
+.item img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item p{
+    text-align: center;
+    font-size: 18px;
+    color:#1F2937;
+}
+
+.informationDiv{
+    background-color: #E5E7EB;
 }
